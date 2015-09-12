@@ -11,6 +11,11 @@ This is a seed project that includes:
 
 ## Instructions
 
+Run:
+`npm install`
+`bower install`
+`gulp`
+
 Start Server: `gulp webserver`
 
 Start Watcher: `gulp watch`
