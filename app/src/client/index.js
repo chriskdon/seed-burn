@@ -1,3 +1,4 @@
+var _ = require('underscore');
 var config = require('../shared/app-config');
 
 var HelloMessage = React.createClass({
