@@ -1,0 +1,19 @@
+{
+  "name": "seed-burn",
+  "version": "1.0.0",
+  "authors": [
+    "Chris Kellendonk <chriskellendonk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "react": "~0.13.3"
+  }
+}
