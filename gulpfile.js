@@ -10,6 +10,7 @@ var less = require('gulp-less');
 var path = require('path');
 var rename = require('gulp-rename');
 var watch = require('gulp-watch');
+var babelify = require('babelify');
 
 var config = {
   publicAppRoot: 'app/public/',
@@ -50,7 +51,7 @@ function buildScript(watch) {
 
   var bundler = watch ? watchify(browserify(props)) : browserify(props);
 
-  bundler.transform(reactify);
+  bundler.transform(babelify);
 
   function rebundle() {
     var stream = bundler.bundle();
