@@ -23,4 +23,3 @@ Start Watcher: `gulp watch`
 
 ## TODO
 - [ ] Create setup script for installing initial components and setting project names/variables.
-- [ ] Use Babelify for ES6
